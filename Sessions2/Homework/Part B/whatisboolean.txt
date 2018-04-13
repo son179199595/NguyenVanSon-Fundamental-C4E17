@@ -1,3 +1,13 @@
-A Boolean value is either true or false. It is named after the British mathematician, George
+(*)What is  Boolean?
+>>>A Boolean value is either true or false. It is named after the British mathematician, George
 Boole, who first formulated Boolean algebra — some rules for reasoning about and combining
 these values. This is the basis of all modern computer logic.
+>>> 3 different expression that results a Boolean type:
+>>> 10 == (3 + 2)
+False
+>>>a = " My "
+>>>a + " name " == 'My name "
+True
+>>>5 == (26//5)
+True
+
