@@ -8,14 +8,21 @@ if a=="C":
     list.append(n)
     print("Our item:",*list,sep=", ")
 if a=="U":
-    input("Update position?")
+    list=["T-shirt","Sweater","Jeans"]
+
     x=int(input("Update position?"))
-    list.pop(x)
     y=input("New item?")
-    list.append(y)
+    list[x-1]= y
+
     print("Our item:",*list,sep=", ")
+
+
+
+
+
 if a=="D":
-    input("Delete position?")
+    list=("T-shirt","Skirt","Jeans")
+
     z=int(input("Delete position?"))
-    list.pop(z)
-    print("Our item:",*list,sep=", ")
+    list.pop(z-1)
+    print("Our item: ", *list,sep=", ")
