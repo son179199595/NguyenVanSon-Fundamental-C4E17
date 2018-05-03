@@ -15,7 +15,7 @@ list_item =[]
 for li in li_list:
     a = li.h3.a
     b = li.h4.a
-    namesong = a.string
+    namesong = lia.string
     singer   = b.string
     item = {
 
